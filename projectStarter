@@ -1,5 +1,6 @@
 mkdir $1;
 cd $1;
+touch README.md;
 touch index.html;
 echo 'Creating a new project';
 echo '<!DOCTYPE html>
