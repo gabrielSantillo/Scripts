@@ -30,7 +30,7 @@ cd ..;
 git add -A;
 git commit -m "Created new GitHub repository for $1";
 
-$ curl -i -H "Authorization: token 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" -d '{ "name": "'$1'", "auto_init": false, "private": false, }' 
+$ curl -i -H "Authorization: token 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" -d '{ "name": "'$1'", "auto_init": false, "private": false, }' 
     https://api.github.com/gabrielSantillo/$1.git
 
 git remote add origin https://api.github.com/gabrielSantillo/$1.git ;
